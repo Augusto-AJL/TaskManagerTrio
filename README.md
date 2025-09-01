@@ -31,14 +31,14 @@ O projeto foi desenvolvido em trio, com uso de **GitHub Desktop**, **branches**,
 ## 🚀 Como Executar  
 
 ### 1. Clonar o repositório  
-```bash `
+bash `
 git clone https://github.com/<usuario>/<repositorio>.git
 cd <repositorio> `
 ### 2. Compilar os arquivos
-```bash `
+bash `
 javac -d bin src/com/exemplo/taskmanager/*.java `
 ### 3. Executar o programa
-```bash `
+bash `
 java -cp bin com.exemplo/taskmanager.Main `
 ## 🖥️ Exemplo de Uso
 === TaskManagerTrio ===
@@ -59,15 +59,15 @@ Criação de branches para cada funcionalidade:
 
 - feature/remover-interface → Dev C
 
-Commits frequentes e mensagens claras
+- Commits frequentes e mensagens claras
 
-Criação de Pull Requests
+- Criação de Pull Requests
 
-Revisão entre colegas e merge na branch main
+- Revisão entre colegas e merge na branch main
 
-Resolução de conflitos quando necessário
+- Resolução de conflitos quando necessário
 
-##✅ Conclusão
+## ✅ Conclusão
 Este projeto permitiu praticar:
 
 Colaboração em equipe usando Git/GitHub
