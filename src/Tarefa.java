@@ -10,4 +10,17 @@ public class Tarefa {
     public String getDescricao() {
         return descricao;
     }
+
+    public boolean isConcluida() {
+        return concluida;
+    }
+
+    public void concluir() {
+        this.concluida = true;
+    }
+    @Override
+    public String toString() {
+        return (concluida ? "[X] " : "[ ] ") + descricao;
+    }
 }
+
