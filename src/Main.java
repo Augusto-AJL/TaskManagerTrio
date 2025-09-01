@@ -35,5 +35,20 @@ public class Main {
                     }
                 }
         break;
+        case 3:
+                System.out.print("Informe o índice da tarefa para remover: ");
+                int idx = Integer.parseInt(sc.nextLine());
+                boolean removida = manager.removerTarefa(idx);
+                if (removida) {
+                    System.out.println("Tarefa removida com sucesso.");
+                } else {
+                    System.out.println("Índice inválido.");
+                }
+                break;
+            case 0:
+                sair = true;
+                break;
+            default:
+                System.out.println("Opção inválida.");
     }
 }
