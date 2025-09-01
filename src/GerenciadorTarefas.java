@@ -8,5 +8,10 @@ public class GerenciadorTarefas {
     public void adicionarTarefa(String descricao) {
         tarefas.add(new Tarefa(descricao));
     }
-    
+
+    // Dev B
+    public List<Tarefa> listarTarefas() {
+        return new ArrayList<Tarefa>(tarefas);
+    }
+
 }
