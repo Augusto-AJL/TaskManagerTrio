@@ -23,7 +23,17 @@ public class Main {
                 String desc = sc.nextLine();
                 manager.adicionarTarefa(desc);
                 System.out.println("Tarefa adicionada!");
-                break;
+            break;
         }
+        case 2:
+                List<Tarefa> lista = manager.listarTarefas();
+                if (lista.isEmpty()) {
+                    System.out.println("Nenhuma tarefa cadastrada.");
+                } else {
+                    for (int i = 0; i < lista.size(); i++) {
+                        System.out.println(i + ") " + lista.get(i));
+                    }
+                }
+        break;
     }
 }
