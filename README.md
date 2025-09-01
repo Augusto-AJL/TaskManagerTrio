@@ -46,17 +46,18 @@ java -cp bin com.exemplo/taskmanager.Main `
 2) Listar tarefas
 3) Remover tarefa
 0) Sair
+
 Escolha: 1
 Digite a descrição da tarefa: Estudar Git
 Tarefa adicionada!
 ##🌳 Fluxo de Trabalho no GitHub
 Criação de branches para cada funcionalidade:
 
-feature/adicionar-tarefa → Dev A
+- feature/adicionar-tarefa → Dev A
 
-feature/listar-tarefas → Dev B
+- feature/listar-tarefas → Dev B
 
-feature/remover-interface → Dev C
+- feature/remover-interface → Dev C
 
 Commits frequentes e mensagens claras
 
