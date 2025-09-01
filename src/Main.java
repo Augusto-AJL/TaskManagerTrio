@@ -15,8 +15,15 @@ public class Main {
             System.out.println("0) Sair");
             System.out.print("Escolha: ");
             int op = Integer.parseInt(sc.nextLine());
+        }
 
-
+        switch (op) {
+            case 1:
+                System.out.print("Digite a descrição da tarefa: ");
+                String desc = sc.nextLine();
+                manager.adicionarTarefa(desc);
+                System.out.println("Tarefa adicionada!");
+                break;
         }
     }
 }
