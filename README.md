@@ -31,15 +31,12 @@ O projeto foi desenvolvido em trio, com uso de **GitHub Desktop**, **branches**,
 ## 🚀 Como Executar  
 
 ### 1. Clonar o repositório  
-bash `
-git clone https://github.com/<usuario>/<repositorio>.git
+`git clone https://github.com/<usuario>/<repositorio>.git
 cd <repositorio> `
 ### 2. Compilar os arquivos
-bash `
-javac -d bin src/com/exemplo/taskmanager/*.java `
+`javac -d bin src/com/exemplo/taskmanager/*.java `
 ### 3. Executar o programa
-bash `
-java -cp bin com.exemplo/taskmanager.Main `
+`java -cp bin com.exemplo/taskmanager.Main `
 ## 🖥️ Exemplo de Uso
 === TaskManagerTrio ===
 1) Adicionar tarefa
